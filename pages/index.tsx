@@ -1,7 +1,13 @@
 import React from 'react';
+import { NextPage } from 'next';
+import { HomeBundle } from '@Bundles';
 
-const Home = () => {
-  return <div>My first page</div>
-}
+const Home: NextPage = () => {
+  return (
+    <div>
+      <HomeBundle />
+    </div>
+  );
+};
 
-export Home;
+export default Home;
