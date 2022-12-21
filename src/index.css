@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Readex Pro';
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('#/fonts/ReadexPro-VariableFont.woff') format('woff'),
+    url('#/fonts/ReadexPro-VariableFont.woff2') format('woff2');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Readex Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #1F2632;
+  scroll-behavior: smooth;
+}
+
+
+@page {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
